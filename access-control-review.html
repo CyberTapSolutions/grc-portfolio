@@ -1,0 +1,2384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Identity and Access Management Control Review - Ramon Tapia GRC Portfolio"
+    >
+
+    <title>
+        Access Control Review | Ramon Tapia
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         NAVIGATION
+    =================================================== -->
+
+    <header class="site-header">
+
+        <div class="nav-container">
+
+            <a
+                href="index.html"
+                class="brand"
+            >
+
+                <span class="shield">
+                    ◇
+                </span>
+
+                <span>
+                    CYBERTAP
+                </span>
+
+            </a>
+
+
+            <nav class="desktop-nav">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="index.html#experience">
+                    Experience
+                </a>
+
+                <a href="index.html#projects">
+                    Projects
+                </a>
+
+                <a href="index.html#frameworks">
+                    Frameworks
+                </a>
+
+                <a href="index.html#about">
+                    About
+                </a>
+
+                <a
+                    href="index.html#contact"
+                    class="nav-contact"
+                >
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <div class="mobile-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#experience">
+                Experience
+            </a>
+
+            <a href="index.html#projects">
+                Projects
+            </a>
+
+            <a href="index.html#frameworks">
+                Frameworks
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- ==================================================
+             PROJECT HERO
+        =================================================== -->
+
+        <section class="project-page-hero">
+
+            <div class="project-page-container">
+
+                <a
+                    href="index.html#projects"
+                    class="back-link"
+                >
+                    ← Back to GRC Projects
+                </a>
+
+
+                <p class="section-number">
+                    PROJECT 05 / IDENTITY & ACCESS MANAGEMENT
+                </p>
+
+
+                <h1>
+
+                    Identity & Access
+
+                    <span>
+                        Control Review
+                    </span>
+
+                </h1>
+
+
+                <p class="project-page-intro">
+
+                    A simulated IAM control assessment evaluating
+                    user access, privileged accounts, role-based
+                    access control, least privilege, terminated-user
+                    access, segregation of duties, access
+                    certification, and remediation tracking.
+
+                </p>
+
+
+                <div class="project-meta">
+
+                    <div>
+
+                        <span>
+                            REVIEW TYPE
+                        </span>
+
+                        <strong>
+                            User Access Review
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            POPULATION
+                        </span>
+
+                        <strong>
+                            125 Accounts
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            EXCEPTIONS
+                        </span>
+
+                        <strong>
+                            8
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            CONTROL RESULT
+                        </span>
+
+                        <strong>
+                            Needs Improvement
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             EXECUTIVE SUMMARY
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    01 / EXECUTIVE SUMMARY
+                </p>
+
+                <h2>
+
+                    Access governance
+
+                    <span>
+                        overview.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="project-content-grid">
+
+                <div class="project-main-content">
+
+                    <p>
+                        This simulated assessment reviews
+                        identity and access management controls
+                        for a fictional enterprise financial
+                        application containing sensitive
+                        business information.
+                    </p>
+
+                    <p>
+                        The objective is to determine whether
+                        user access remains appropriate based
+                        on job responsibilities, whether
+                        privileged permissions are adequately
+                        controlled, and whether access changes
+                        are completed when users transfer or
+                        leave the organization.
+                    </p>
+
+                    <p>
+                        A population of 125 fictional accounts
+                        was reviewed using simulated HR records,
+                        application access exports, role
+                        assignments, manager certifications,
+                        privileged account listings, and
+                        termination records.
+                    </p>
+
+                    <p>
+                        Eight exceptions were identified.
+                        The most significant issues involved
+                        terminated-user access, excessive
+                        privileged permissions, conflicting
+                        financial roles, and incomplete
+                        manager certification evidence.
+                    </p>
+
+                    <p>
+                        The overall control conclusion is
+                        <strong>Needs Improvement</strong>
+                        because access governance processes
+                        exist, but several exceptions indicate
+                        that important controls are not
+                        operating consistently.
+                    </p>
+
+                    <p>
+                        All identities, systems, records,
+                        findings, and assessment results in
+                        this portfolio project are simulated.
+                    </p>
+
+                </div>
+
+
+                <aside class="assessment-summary">
+
+                    <p class="panel-heading">
+                        REVIEW SUMMARY
+                    </p>
+
+                    <div>
+                        <span>Accounts Reviewed</span>
+                        <strong>125</strong>
+                    </div>
+
+                    <div>
+                        <span>Privileged Accounts</span>
+                        <strong>12</strong>
+                    </div>
+
+                    <div>
+                        <span>Exceptions</span>
+                        <strong>8</strong>
+                    </div>
+
+                    <div>
+                        <span>High-Risk Findings</span>
+                        <strong>3</strong>
+                    </div>
+
+                    <div>
+                        <span>Exception Rate</span>
+                        <strong>6.4%</strong>
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CONTROL OBJECTIVES
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    02 / CONTROL OBJECTIVES
+                </p>
+
+                <h2>
+
+                    What the review
+
+                    <span>
+                        tests.
+                    </span>
+
+                </h2>
+
+                <p class="section-description">
+
+                    The review focuses on whether access
+                    is authorized, appropriate, limited,
+                    periodically reviewed, and removed
+                    when no longer required.
+
+                </p>
+
+            </div>
+
+
+            <div class="method-grid">
+
+                <article class="method-card">
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        Authorized Access
+                    </h3>
+
+                    <p>
+                        Verify that accounts and
+                        permissions were approved by
+                        appropriate personnel.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        Least Privilege
+                    </h3>
+
+                    <p>
+                        Determine whether users have
+                        only the access required to
+                        perform assigned responsibilities.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        Privileged Access
+                    </h3>
+
+                    <p>
+                        Verify that elevated permissions
+                        are limited, justified, monitored,
+                        and periodically reviewed.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3>
+                        Segregation of Duties
+                    </h3>
+
+                    <p>
+                        Identify combinations of
+                        permissions that could allow
+                        incompatible business activities.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>
+                        05
+                    </span>
+
+                    <h3>
+                        Access Removal
+                    </h3>
+
+                    <p>
+                        Confirm that access is promptly
+                        removed when employment or
+                        business need ends.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>
+                        06
+                    </span>
+
+                    <h3>
+                        Access Certification
+                    </h3>
+
+                    <p>
+                        Confirm that managers and
+                        system owners periodically
+                        recertify user permissions.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             REVIEW METHODOLOGY
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    03 / METHODOLOGY
+                </p>
+
+                <h2>
+
+                    Review
+
+                    <span>
+                        workflow.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="method-grid">
+
+                <article class="method-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Define Scope
+                    </h3>
+
+                    <p>
+                        Identify the application,
+                        review period, user population,
+                        privileged roles, and control
+                        objectives.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Obtain Population
+                    </h3>
+
+                    <p>
+                        Obtain user, role, privilege,
+                        employment, and access
+                        certification records.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Reconcile Records
+                    </h3>
+
+                    <p>
+                        Compare application accounts
+                        against HR and identity records
+                        to identify discrepancies.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        Test Access
+                    </h3>
+
+                    <p>
+                        Evaluate role appropriateness,
+                        privilege, authorization,
+                        segregation of duties,
+                        and termination status.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>05</span>
+
+                    <h3>
+                        Validate Exceptions
+                    </h3>
+
+                    <p>
+                        Confirm identified exceptions
+                        with control owners and gather
+                        supporting evidence.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>06</span>
+
+                    <h3>
+                        Report & Remediate
+                    </h3>
+
+                    <p>
+                        Document findings, assign
+                        owners, establish remediation,
+                        and track closure.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             REVIEW POPULATION
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    04 / REVIEW POPULATION
+                </p>
+
+                <h2>
+
+                    Account
+
+                    <span>
+                        population.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="risk-dashboard">
+
+                <div class="risk-stat">
+                    <span>Total Accounts</span>
+                    <strong>125</strong>
+                </div>
+
+                <div class="risk-stat">
+                    <span>Standard Users</span>
+                    <strong>108</strong>
+                </div>
+
+                <div class="risk-stat">
+                    <span>Privileged</span>
+                    <strong>12</strong>
+                </div>
+
+                <div class="risk-stat">
+                    <span>Service Accounts</span>
+                    <strong>5</strong>
+                </div>
+
+                <div class="risk-stat">
+                    <span>Exceptions</span>
+                    <strong>8</strong>
+                </div>
+
+                <div class="risk-stat">
+                    <span>Exception Rate</span>
+                    <strong>6.4%</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             TEST RESULTS
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    05 / CONTROL TESTING
+                </p>
+
+                <h2>
+
+                    Access review
+
+                    <span>
+                        results.
+                    </span>
+
+                </h2>
+
+                <p class="section-description">
+
+                    Each access governance control was
+                    evaluated using simulated evidence
+                    from the user population.
+
+                </p>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table class="risk-table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Control</th>
+                            <th>Population</th>
+                            <th>Exceptions</th>
+                            <th>Result</th>
+                            <th>Risk</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                Active employees have
+                                authorized system access
+                            </td>
+
+                            <td>108</td>
+
+                            <td>1</td>
+
+                            <td>
+                                Mostly Effective
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Terminated-user access
+                                is promptly removed
+                            </td>
+
+                            <td>7</td>
+
+                            <td>2</td>
+
+                            <td>
+                                Needs Improvement
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Privileged access is
+                                appropriately assigned
+                            </td>
+
+                            <td>12</td>
+
+                            <td>2</td>
+
+                            <td>
+                                Needs Improvement
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Conflicting financial
+                                duties are restricted
+                            </td>
+
+                            <td>125</td>
+
+                            <td>1</td>
+
+                            <td>
+                                Needs Improvement
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                Quarterly access
+                                certification is completed
+                            </td>
+
+                            <td>125</td>
+
+                            <td>2</td>
+
+                            <td>
+                                Partially Effective
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             EXCEPTION REGISTER
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    06 / EXCEPTION REGISTER
+                </p>
+
+                <h2>
+
+                    Identified access
+
+                    <span>
+                        exceptions.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table class="risk-table">
+
+                    <thead>
+
+                        <tr>
+                            <th>ID</th>
+                            <th>User</th>
+                            <th>Exception</th>
+                            <th>Risk</th>
+                            <th>Required Action</th>
+                            <th>Status</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>IAM-001</td>
+
+                            <td>
+                                User-017
+                            </td>
+
+                            <td>
+                                Terminated account remained
+                                enabled after employment ended.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Disable account and investigate
+                                offboarding process failure.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-002</td>
+
+                            <td>
+                                User-041
+                            </td>
+
+                            <td>
+                                Terminated user retained
+                                application access beyond
+                                required removal timeframe.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Remove access and validate
+                                termination workflow.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-003</td>
+
+                            <td>
+                                User-063
+                            </td>
+
+                            <td>
+                                Administrative role is not
+                                supported by current job
+                                responsibilities.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Remove unnecessary privileged
+                                role and review approval history.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-004</td>
+
+                            <td>
+                                User-088
+                            </td>
+
+                            <td>
+                                Privileged access lacks
+                                documented business
+                                justification.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Obtain approval or remove
+                                privileged permissions.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-005</td>
+
+                            <td>
+                                User-094
+                            </td>
+
+                            <td>
+                                User can both create and
+                                approve financial transactions.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Remove conflicting permission
+                                and establish preventive
+                                segregation-of-duties control.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-006</td>
+
+                            <td>
+                                User-102
+                            </td>
+
+                            <td>
+                                Access exceeds requirements
+                                of the user's current role.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Reduce permissions to
+                                approved role baseline.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-007</td>
+
+                            <td>
+                                User-111
+                            </td>
+
+                            <td>
+                                Manager certification
+                                evidence was not retained.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Complete certification and
+                                retain review evidence.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>IAM-008</td>
+
+                            <td>
+                                User-119
+                            </td>
+
+                            <td>
+                                Quarterly access review
+                                was not completed by the
+                                required reviewer.
+                            </td>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Complete overdue review
+                                and establish escalation
+                                for missed certifications.
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             PRIORITY FINDING
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    07 / PRIORITY FINDING
+                </p>
+
+                <h2>
+
+                    Terminated-user
+
+                    <span>
+                        access.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="finding-card">
+
+                <div class="finding-header">
+
+                    <div>
+
+                        <span>
+                            IAM-001
+                        </span>
+
+                        <h3>
+                            Account Remained Active After Termination
+                        </h3>
+
+                    </div>
+
+
+                    <span class="risk-badge high-badge">
+                        HIGH
+                    </span>
+
+                </div>
+
+
+                <div class="finding-grid">
+
+                    <div>
+
+                        <span class="finding-label">
+                            CONDITION
+                        </span>
+
+                        <p>
+                            Review of simulated HR
+                            termination records identified
+                            an application account that
+                            remained enabled after the
+                            user's employment ended.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            RISK
+                        </span>
+
+                        <p>
+                            Active accounts belonging to
+                            former employees increase the
+                            possibility of unauthorized
+                            access, misuse of credentials,
+                            data exposure, and fraudulent
+                            activity.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            CONTROL AREA
+                        </span>
+
+                        <p>
+                            Account Management
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            SEVERITY
+                        </span>
+
+                        <p>
+                            High
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            CONTROL OWNER
+                        </span>
+
+                        <p>
+                            Identity & Access Management
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            TREATMENT
+                        </span>
+
+                        <p>
+                            Mitigate
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="control-section">
+
+                    <span class="finding-label">
+                        RECOMMENDED REMEDIATION
+                    </span>
+
+                    <ul>
+
+                        <li>
+                            Immediately disable the
+                            terminated user's account.
+                        </li>
+
+                        <li>
+                            Review authentication and
+                            application logs for activity
+                            following termination.
+                        </li>
+
+                        <li>
+                            Validate whether other
+                            terminated users retain
+                            active access.
+                        </li>
+
+                        <li>
+                            Integrate HR termination
+                            events with identity
+                            deprovisioning workflows.
+                        </li>
+
+                        <li>
+                            Establish escalation for
+                            accounts not disabled within
+                            the required timeframe.
+                        </li>
+
+                        <li>
+                            Periodically reconcile active
+                            accounts against authoritative
+                            employment records.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="residual-box">
+
+                    <span>
+                        EXPECTED RESULT
+                    </span>
+
+                    <strong>
+                        TIMELY ACCESS REVOCATION
+                    </strong>
+
+                    <p>
+                        Automated or tightly coordinated
+                        offboarding controls reduce the
+                        opportunity for former employees
+                        to retain access after the
+                        business relationship ends.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             SEGREGATION OF DUTIES
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    08 / SEGREGATION OF DUTIES
+                </p>
+
+                <h2>
+
+                    Preventing conflicting
+
+                    <span>
+                        access.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="finding-card">
+
+                <div class="finding-header">
+
+                    <div>
+
+                        <span>
+                            IAM-005
+                        </span>
+
+                        <h3>
+                            Conflicting Financial Permissions
+                        </h3>
+
+                    </div>
+
+
+                    <span class="risk-badge high-badge">
+                        HIGH
+                    </span>
+
+                </div>
+
+
+                <div class="finding-grid">
+
+                    <div>
+
+                        <span class="finding-label">
+                            ACCESS ROLE 1
+                        </span>
+
+                        <p>
+                            Transaction Creator
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            ACCESS ROLE 2
+                        </span>
+
+                        <p>
+                            Transaction Approver
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            CONFLICT
+                        </span>
+
+                        <p>
+                            One user can initiate and
+                            approve the same type of
+                            financial activity.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            RISK
+                        </span>
+
+                        <p>
+                            Unauthorized or fraudulent
+                            transactions could occur
+                            without independent approval.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="control-section">
+
+                    <span class="finding-label">
+                        REMEDIATION
+                    </span>
+
+                    <ul>
+
+                        <li>
+                            Remove one of the conflicting
+                            roles from the affected user.
+                        </li>
+
+                        <li>
+                            Establish an approved
+                            segregation-of-duties matrix.
+                        </li>
+
+                        <li>
+                            Prevent incompatible roles
+                            from being assigned together
+                            where technically possible.
+                        </li>
+
+                        <li>
+                            Require documented compensating
+                            controls when exceptions are
+                            necessary.
+                        </li>
+
+                        <li>
+                            Include SoD conflicts in
+                            recurring access certification.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             PRIVILEGED ACCESS
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    09 / PRIVILEGED ACCESS
+                </p>
+
+                <h2>
+
+                    Elevated access requires
+
+                    <span>
+                        stronger oversight.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="method-grid">
+
+                <article class="method-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Business Need
+                    </h3>
+
+                    <p>
+                        Privileged access should have
+                        documented business justification
+                        tied to job responsibilities.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Approval
+                    </h3>
+
+                    <p>
+                        Elevated permissions should be
+                        approved by appropriate system
+                        or business owners.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Least Privilege
+                    </h3>
+
+                    <p>
+                        Administrative permissions
+                        should be limited to only what
+                        the individual requires.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        MFA
+                    </h3>
+
+                    <p>
+                        Strong authentication should
+                        protect privileged access
+                        wherever supported.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>05</span>
+
+                    <h3>
+                        Logging
+                    </h3>
+
+                    <p>
+                        Privileged activity should be
+                        logged and monitored for
+                        suspicious administrative actions.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>06</span>
+
+                    <h3>
+                        Recertification
+                    </h3>
+
+                    <p>
+                        Elevated access should be
+                        reviewed regularly and removed
+                        when no longer required.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             FRAMEWORK MAPPING
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    10 / CONTROL MAPPING
+                </p>
+
+                <h2>
+
+                    Access governance
+
+                    <span>
+                        framework mapping.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="framework-grid">
+
+                <div class="framework-card">
+
+                    <span>
+                        NIST CSF 2.0
+                    </span>
+
+                    <strong>
+                        PR.AA
+                    </strong>
+
+                    <p>
+                        Identity Management,
+                        Authentication, and
+                        Access Control.
+                    </p>
+
+                </div>
+
+
+                <div class="framework-card">
+
+                    <span>
+                        NIST 800-53
+                    </span>
+
+                    <strong>
+                        AC-2
+                    </strong>
+
+                    <p>
+                        Account Management.
+                    </p>
+
+                </div>
+
+
+                <div class="framework-card">
+
+                    <span>
+                        NIST 800-53
+                    </span>
+
+                    <strong>
+                        AC-5
+                    </strong>
+
+                    <p>
+                        Separation of Duties.
+                    </p>
+
+                </div>
+
+
+                <div class="framework-card">
+
+                    <span>
+                        NIST 800-53
+                    </span>
+
+                    <strong>
+                        AC-6
+                    </strong>
+
+                    <p>
+                        Least Privilege.
+                    </p>
+
+                </div>
+
+
+                <div class="framework-card">
+
+                    <span>
+                        NIST 800-53
+                    </span>
+
+                    <strong>
+                        IA-2
+                    </strong>
+
+                    <p>
+                        Identification and
+                        Authentication.
+                    </p>
+
+                </div>
+
+
+                <div class="framework-card">
+
+                    <span>
+                        CIS CONTROLS
+                    </span>
+
+                    <strong>
+                        Control 6
+                    </strong>
+
+                    <p>
+                        Access Control Management.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             REMEDIATION PLAN
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    11 / REMEDIATION PLAN
+                </p>
+
+                <h2>
+
+                    Turning findings into
+
+                    <span>
+                        action.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table class="risk-table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Priority</th>
+                            <th>Action</th>
+                            <th>Owner</th>
+                            <th>Target</th>
+                            <th>Status</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Disable terminated accounts
+                                and investigate offboarding
+                                failures.
+                            </td>
+
+                            <td>
+                                IAM
+                            </td>
+
+                            <td>
+                                Immediate
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Remove unnecessary
+                                privileged permissions.
+                            </td>
+
+                            <td>
+                                IAM / System Owner
+                            </td>
+
+                            <td>
+                                7 Days
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <span class="risk-badge high-badge">
+                                    High
+                                </span>
+                            </td>
+
+                            <td>
+                                Resolve segregation-of-duties
+                                conflict.
+                            </td>
+
+                            <td>
+                                Finance / IAM
+                            </td>
+
+                            <td>
+                                7 Days
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Complete overdue access
+                                certifications.
+                            </td>
+
+                            <td>
+                                Managers
+                            </td>
+
+                            <td>
+                                14 Days
+                            </td>
+
+                            <td>
+                                Open
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>
+                                <span class="risk-badge medium-badge">
+                                    Medium
+                                </span>
+                            </td>
+
+                            <td>
+                                Implement automated
+                                HR-to-IAM termination
+                                workflow.
+                            </td>
+
+                            <td>
+                                IAM / HR / IT
+                            </td>
+
+                            <td>
+                                60 Days
+                            </td>
+
+                            <td>
+                                Planned
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CONTROL CONCLUSION
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    12 / CONTROL CONCLUSION
+                </p>
+
+                <h2>
+
+                    Overall control
+
+                    <span>
+                        effectiveness.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="finding-card">
+
+                <div class="finding-header">
+
+                    <div>
+
+                        <span>
+                            FINAL ASSESSMENT
+                        </span>
+
+                        <h3>
+                            Access Governance Needs Improvement
+                        </h3>
+
+                    </div>
+
+
+                    <span class="risk-badge high-badge">
+                        NEEDS IMPROVEMENT
+                    </span>
+
+                </div>
+
+
+                <div class="finding-grid">
+
+                    <div>
+
+                        <span class="finding-label">
+                            DESIGN
+                        </span>
+
+                        <p>
+                            Access management processes,
+                            role definitions, approval
+                            requirements, and recurring
+                            access reviews are established.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            OPERATING EFFECTIVENESS
+                        </span>
+
+                        <p>
+                            Exceptions involving termination,
+                            privileged access, segregation
+                            of duties, and certification
+                            indicate inconsistent execution.
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            RISK LEVEL
+                        </span>
+
+                        <p>
+                            High
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="finding-label">
+                            FOLLOW-UP
+                        </span>
+
+                        <p>
+                            Retest after remediation
+                            completion.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="residual-box">
+
+                    <span>
+                        CONCLUSION
+                    </span>
+
+                    <strong>
+                        REMEDIATION REQUIRED
+                    </strong>
+
+                    <p>
+                        The control environment demonstrates
+                        established access governance
+                        processes, but identified exceptions
+                        require remediation before the
+                        control can be considered consistently
+                        effective.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             GRC TAKEAWAY
+        =================================================== -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <p class="section-number">
+                    13 / GRC TAKEAWAY
+                </p>
+
+                <h2>
+
+                    What this project
+
+                    <span>
+                        demonstrates.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="method-grid">
+
+                <article class="method-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Control Testing
+                    </h3>
+
+                    <p>
+                        Evaluate whether access
+                        controls are designed and
+                        operating as expected.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Evidence Analysis
+                    </h3>
+
+                    <p>
+                        Compare system access,
+                        employment records,
+                        approvals, and certifications.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Least Privilege
+                    </h3>
+
+                    <p>
+                        Identify permissions that
+                        exceed legitimate business
+                        requirements.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        SoD Analysis
+                    </h3>
+
+                    <p>
+                        Identify incompatible roles
+                        that create fraud or
+                        unauthorized-action risk.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>05</span>
+
+                    <h3>
+                        Finding Management
+                    </h3>
+
+                    <p>
+                        Document conditions, risks,
+                        severity, ownership, and
+                        remediation requirements.
+                    </p>
+
+                </article>
+
+
+                <article class="method-card">
+
+                    <span>06</span>
+
+                    <h3>
+                        Control Conclusion
+                    </h3>
+
+                    <p>
+                        Translate testing results
+                        into a clear assessment of
+                        control effectiveness.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CONCLUSION
+        =================================================== -->
+
+        <section class="contact-section">
+
+            <p class="section-number">
+                PROJECT CONCLUSION
+            </p>
+
+
+            <h2>
+
+                Access should match
+
+                <span>
+                    business need.
+                </span>
+
+            </h2>
+
+
+            <p>
+                This project demonstrates how identity
+                and access controls can be assessed through
+                population analysis, evidence review,
+                least-privilege testing, privileged access
+                review, segregation-of-duties analysis,
+                exception management, remediation tracking,
+                and control-effectiveness conclusions.
+            </p>
+
+
+            <div class="contact-actions">
+
+                <a
+                    href="third-party-risk.html"
+                    class="btn btn-outline"
+                >
+                    ← Project 04
+                </a>
+
+                <a
+                    href="index.html#projects"
+                    class="btn btn-primary"
+                >
+                    All GRC Projects
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer>
+
+        <div>
+
+            <strong>
+                CYBERTAP / GRC
+            </strong>
+
+            <p>
+                Cybersecurity Governance,
+                Risk & Compliance Portfolio
+            </p>
+
+        </div>
+
+        <p>
+            © 2026 Ramon Tapia
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
